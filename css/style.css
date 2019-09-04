@@ -9586,3 +9586,26 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+
+.block-20
+	{
+		border-radius: 4px;
+		background-size:cover;
+		box-shadow:inset 0 0 0 2000px rgba(0,0,0,0.3);
+	}	
+.block-20 .text {
+    position: absolute;
+    bottom: 0;
+    z-index: 10;
+    padding: 20px;
+    max-width: 350px;
+}	
+.block-20 .text h2 {
+    color: #fff;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 0;
+}
+.block-20 .text span {
+    color: rgba(255,255,255,.5);
+}
